@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New Possession{% endblock %}
+
+{% block body %}
+    <h1>Create new Possession</h1>
+
+    {{ include('possession/_form.html.twig') }}
+
+    <a href="{{ path('app_possession_index') }}">back to list</a>
+{% endblock %}
