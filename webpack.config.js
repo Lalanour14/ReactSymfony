@@ -12,13 +12,14 @@ Encore
     
     .setPublicPath('/build')
     
-    .addEntry('app', './assets/react/index.js')
-    .addStyleEntry('styles','./assets/styles/styles.scss')
+    .addEntry('app', './assets/app.js')
+    .addEntry('test', './assets/controller/test.js')
+    
 
     
     .splitEntryChunks()
 
-    .enableReactPreset()
+   
 
    
     .enableSingleRuntimeChunk()
